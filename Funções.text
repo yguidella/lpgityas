@@ -21,7 +21,7 @@ programa {
         
         inteiro resultado
         
-        resultado = n1 / n2
+        resultado = n2 / n1
         escreva("O resultado é ", resultado , "\n")
         
         
