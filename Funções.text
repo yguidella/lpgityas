@@ -1,0 +1,75 @@
+programa {
+    
+    funcao soma(inteiro n1, inteiro n2){
+        inteiro resultado
+        
+        resultado = n1 + n2
+        escreva("O resultado é ", resultado , "\n")
+        
+    }
+    
+    funcao sub(inteiro n1, inteiro n2){
+        inteiro resultado
+    
+        resultado = n1 - n2
+        escreva("O resultado é ", resultado , "\n")
+        
+    }
+    
+    
+    funcao div(inteiro n1, inteiro n2){
+        
+        inteiro resultado
+        
+        resultado = n1 / n2
+        escreva("O resultado é ", resultado , "\n")
+        
+        
+    }
+    
+    funcao mult(inteiro n1, inteiro n2){
+    
+        inteiro resultado
+        
+        resultado = n1 * n2
+        escreva("O resultado é : ", resultado , "\n")
+        
+    }
+    
+	funcao inicio() {
+	        cadeia resposta
+	        inteiro n1,n2
+		    
+		    escreva("Boa tarde turma \n")
+		    escreva("Digite dois valores \n")
+            escreva("Valor 1 : \n")
+            leia(n1)
+            escreva("Valor 2 : \n")
+            leia(n2)
+		    escreva("Digite 'soma' para somar, 'sub' para subtrair, 'mult' para multiplicar ou 'div' para dividir\n")
+            leia(resposta)	
+            
+            se(resposta == "soma"){
+                soma(n1,n2)
+                
+            }
+            
+            se(resposta == "sub"){
+                sub(n1,n2)
+            }
+            
+            se(resposta == "mult"){
+                mult(n1,n2)
+        
+            }
+            
+            se(resposta == "div"){
+                div(n1,n2)
+                
+        
+            }senao{
+                escreva("\nAté mais!!!")
+            }
+            
+	}
+}
